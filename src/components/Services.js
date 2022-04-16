@@ -1,12 +1,20 @@
 // Services.js
 
 import React from "react";
-import "./index.css";
+import "../index.css";
+import clipart from "../assets/clipart.png";
 
 const Services = (props) => {
   return (
     <div>
-      <h1>Services</h1>
+      <h1 className="text-3xl">
+        <img
+          src={clipart}
+          style={{ display: "inline-flex", height: 40 }}
+          alt="logo"
+        />
+        Services
+      </h1>
       <h2>I provide the following services.</h2>
       <ul>
         <li>One-on-one video classes.</li>
