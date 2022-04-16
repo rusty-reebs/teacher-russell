@@ -57,7 +57,7 @@ const About = (props) => {
           Services >>{" "}
         </Link>
       </div>
-      <div className="h-6"></div>
+      <div className="h-4"></div>
     </div>
   );
 };
