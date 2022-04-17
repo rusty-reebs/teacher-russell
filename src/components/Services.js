@@ -10,11 +10,7 @@ const Services = (props) => {
     <div>
       <div className="mx-5 text-lg">
         <h1 className="text-2xl text-center pb-2">
-          <img
-            src={clipart}
-            style={{ display: "inline-flex", height: 40 }}
-            alt="logo"
-          />
+          <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;Services
         </h1>
         <div className="flex flex-col gap-4">
@@ -22,7 +18,7 @@ const Services = (props) => {
             I provide the following services.
           </h2>
           <div className="mx-3">
-            <ul className="list-disc list-outside">
+            <ul className="list-disc list-outside space-y-3">
               <li>One-on-one video classes.</li>
               <li>
                 Digital curriculum which can be viewed on a computer or iPad

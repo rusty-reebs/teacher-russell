@@ -12,11 +12,7 @@ const About = (props) => {
     <div>
       <div className="mx-5 text-lg">
         <h1 className="text-2xl text-center pb-4">
-          <img
-            src={clipart}
-            style={{ display: "inline-flex", height: 40 }}
-            alt="logo"
-          />
+          <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;About Me
         </h1>
         <div className="flex flex-col gap-4">
@@ -54,7 +50,7 @@ const About = (props) => {
       </div>
       <div className="text-right text-lg w-full bg-orange text-black py-2 mt-4">
         <Link to="/services" className="pr-2">
-          Services >>{" "}
+          Services &gt;&gt;{" "}
         </Link>
       </div>
       <div className="h-4"></div>

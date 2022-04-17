@@ -22,9 +22,8 @@ const Navbar = (props) => {
           Teacher Russell
           <a href="/">
             <img
-              className="mx-auto py-2"
+              className="mx-auto py-2 block h-40"
               src={profilePic}
-              style={{ display: "block", height: 180 }}
               alt="pic"
             />
           </a>
@@ -45,46 +44,46 @@ const Navbar = (props) => {
             </p>
           </button>
         </div>
-        <div className="toggle hidden lg:flex w-full lg:w-auto text-center text-bold mt-5 lg:mt-0 border-t-2 border-gray lg:border-none">
+        <div className="toggle hidden lg:flex w-full lg:w-auto text-lg text-center text-black text-bold mt-5 lg:mt-0 border-t-2 border-gray lg:border-none">
           <Link
             to="/about"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             ℹ️&nbsp;&nbsp;About Me
           </Link>
           <Link
             to="/services"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             🖥&nbsp;&nbsp;Services
           </Link>
           <Link
             to="/curriculum"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             📚&nbsp;&nbsp;Curriculum
           </Link>
           <Link
             to="/classes"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             📎&nbsp;&nbsp;Classes
           </Link>
           <Link
             to="/payment"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             💳&nbsp;&nbsp;Payment
           </Link>
           <Link
             to="/policies"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             🤝&nbsp;&nbsp;Policies
           </Link>
           <Link
             to="/testimonials"
-            className="block text-lg lg:inline-block text-black hover:text-white px-3 py-3 border-b-4 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-4 border-gray lg:border-none lg:text-lg"
           >
             ✨&nbsp;&nbsp;Testimonials
           </Link>
