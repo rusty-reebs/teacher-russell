@@ -6,12 +6,14 @@ import "../index.css";
 import clipart from "../assets/clipart.png";
 import stats from "../assets/stats.jpg";
 import certificate from "../assets/120hrs.png";
+import family from "../assets/family.jpg";
+import monkey from "../assets/monkey.jpeg";
 
 const About = (props) => {
   return (
     <div>
       <div className="mx-5 text-lg">
-        <h1 className="text-2xl text-center pb-4">
+        <h1 className="text-2xl tracking-wider text-center pb-4">
           <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;About Me
         </h1>
@@ -46,6 +48,8 @@ const About = (props) => {
             encourage students to speak in more detail. I am a patient and
             friendly teacher.
           </p>
+          <img src={family} className="w-full" alt="family" />
+          <img src={monkey} className="w-full" alt="monkey" />
         </div>
       </div>
       <div className="text-right text-lg w-full bg-orange text-black py-2 mt-4">

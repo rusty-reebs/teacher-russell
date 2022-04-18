@@ -8,6 +8,7 @@ import Classes from "./components/Classes";
 import Payment from "./components/Payment";
 import Policies from "./components/Policies";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="payment" element={<Payment />} />
           <Route path="policies" element={<Policies />} />
           <Route path="testimonials" element={<Testimonials />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </div>

@@ -4,7 +4,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
 import profilePic from "../assets/profile-white.png";
-import clipart from "../assets/clipart.png";
 
 const Navbar = (props) => {
   useEffect(() => {
@@ -83,9 +82,15 @@ const Navbar = (props) => {
           </Link>
           <Link
             to="/testimonials"
-            className="block lg:inline-block hover:text-white px-3 py-3 border-b-4 border-gray lg:border-none lg:text-lg"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"
           >
             ✨&nbsp;&nbsp;Testimonials
+          </Link>
+          <Link
+            to="/contact"
+            className="block lg:inline-block hover:text-white px-3 py-3 border-b-4 border-gray lg:border-none lg:text-lg"
+          >
+            📫&nbsp;&nbsp;Contact
           </Link>
         </div>
       </nav>

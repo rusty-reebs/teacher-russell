@@ -33,7 +33,7 @@ const Classes = (props) => {
   return (
     <div>
       <div className="mx-5 text-lg">
-        <h1 className="text-2xl text-center pb-2">
+        <h1 className="text-2xl tracking-wider text-center pb-2">
           <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;Classes
         </h1>
