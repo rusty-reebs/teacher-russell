@@ -17,14 +17,14 @@ const Testimonials = (props) => {
   const testimonials = [test1, test2, test3, test4, test5, test6, test7, test8];
   return (
     <div>
-      <div className="mx-5 text-lg">
+      <div className="mx-5 text-lg lg:mx-52">
         <h1 className="text-2xl tracking-wider text-center pb-2">
           <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;Testimonials
         </h1>
         <h2 className="text-center text-xl pb-6">What clients say.</h2>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 lg:grid lg:grid-cols-2 lg:mx-44">
         {testimonials.map((testimonial, index) => {
           return (
             <div key={index}>
@@ -33,7 +33,7 @@ const Testimonials = (props) => {
           );
         })}
       </div>
-      <div className="flex justify-between text-lg w-full bg-orange text-black py-2 mt-4">
+      <div className="flex justify-between text-lg w-full bg-orange text-black py-2 mt-4 lg:w-3/4 lg:mx-auto">
         <Link to="/policies" className="pl-2">
           &lt;&lt; Policies
         </Link>

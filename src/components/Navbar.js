@@ -17,7 +17,7 @@ const Navbar = (props) => {
   return (
     <div>
       <nav className="flex flex-col px-1 pt-1 mb-5 lg:w-full lg:px-9 lg:pt-9 lg:mb-9">
-        <div className="relative bg-orange/25 border-2 border-black rounded-md w-full shadow-md lg:w-3/4 lg:mx-auto">
+        <div className="relative bg-orange/25 border-2 border-black rounded-md w-full shadow-md lg:w-4/5 lg:mx-auto">
           <h1 className=" text-black text-center border-orange border-8 rounded-md bg-orange/25 w-full text-3xl py-3 lg:text-2xl">
             Teacher Russell
             <a href="/">
@@ -40,7 +40,7 @@ const Navbar = (props) => {
             </p>
           </button>
         </div>
-        <div className="toggle hidden lg:flex w-full lg:w-auto lg:mx-auto text-lg text-center text-black text-bold mt-5 lg:mt-0 border-t-2 border-gray lg:border-none">
+        <div className="toggle hidden lg:flex w-full lg:w-4/5 lg:flex-wrap lg:justify-around lg:mx-auto text-lg text-center text-black text-bold mt-5 lg:mt-0 border-t-2 border-gray lg:border-none">
           <Link
             to="/about"
             className="block lg:inline-block hover:cursor-pointer px-3 py-3 border-b-2 border-gray lg:border-none lg:text-lg"

@@ -3,14 +3,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import clipart from "../assets/clipart.png";
-import alipay from "../assets/Alipay.png";
-import wechat from "../assets/wechatpay.png";
 import "../index.css";
 
 const Policies = (props) => {
   return (
     <div>
-      <div className="mx-5 text-lg">
+      <div className="mx-5 text-lg lg:mx-52">
         <h1 className="text-2xl tracking-wider text-center pb-5">
           <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;Policies
@@ -45,7 +43,7 @@ const Policies = (props) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between text-lg w-full bg-orange text-black py-2 mt-4">
+      <div className="flex justify-between text-lg w-full bg-orange text-black py-2 mt-4 lg:w-3/4 lg:mx-auto">
         <Link to="/payment" className="pl-2">
           &lt;&lt; Payment
         </Link>

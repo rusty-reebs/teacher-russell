@@ -9,7 +9,7 @@ import wechatqr from "../assets/wechatqr.png";
 const Contact = (props) => {
   return (
     <div>
-      <div className="mx-5 text-lg">
+      <div className="mx-5 text-lg lg:mx-52">
         <h1 className="text-2xl tracking-wider text-center pb-2">
           <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;Contact Me
@@ -18,16 +18,19 @@ const Contact = (props) => {
           <h2 className="text-center text-xl">
             You can reach me on WeChat or by email.
           </h2>
-          <img src={wechatqr} alt="qr" />
-          <a
-            href="mailto:russ.salonen@gmail.com"
-            className="text-center text-xl underline underline-offset-1"
-          >
-            russ.salonen@gmail.com
-          </a>
+          <img src={wechatqr} alt="qr" className="lg:w-1/4 mx-auto" />
+          <p className="text-2xl text-center">
+            ✉️&nbsp;
+            <a
+              href="mailto:russ.salonen@gmail.com"
+              className="text-xl underline underline-offset-1"
+            >
+              russ.salonen@gmail.com
+            </a>
+          </p>
         </div>
       </div>
-      <div className="flex justify-start text-lg w-full bg-orange text-black py-2 mt-4">
+      <div className="flex justify-start text-lg w-full bg-orange text-black py-2 mt-4 lg:w-3/4 lg:mx-auto">
         <Link to="/testimonials" className="pl-2">
           &lt;&lt; Testimonials
         </Link>

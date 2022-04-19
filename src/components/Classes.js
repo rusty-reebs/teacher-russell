@@ -32,38 +32,39 @@ const packages = [
 const Classes = (props) => {
   return (
     <div>
-      <div className="mx-5 text-lg">
+      <div className="mx-5 text-lg lg:mx-52">
         <h1 className="text-2xl tracking-wider text-center pb-2">
           <img src={clipart} className="inline-flex h-10" alt="logo" />
           &nbsp;&nbsp;Classes
         </h1>
         <div className="flex flex-col gap-5 pb-5">
-          <h2 className="text-center text-xl">
+          <h2 className="text-center text-xl lg:max-w-3xl lg:mx-auto">
             Classes will take place over Zoom, ClassIn, Skype, or whichever
             platform works best for the student. The first class is free so we
             can find the right platform and curriculum.
           </h2>
-          <ClassCard classTime="25" dollars="20" yuan="128" />
-          <ClassCard classTime="55" dollars="40" yuan="256" />
+          <div className="flex flex-col gap-5 lg:flex-row">
+            <ClassCard classTime="25" dollars="20" yuan="128" />
+            <ClassCard classTime="55" dollars="40" yuan="256" />
+          </div>
         </div>
         <h2 className="text-center text-2xl pb-2">Packages</h2>
         <h2 className="text-xl text-center">
           I offer the following discounts for purchasing classes in bulk.
         </h2>
         <Packages />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 text-center font-bold lg:mx-44">
           <h1>
-            <span className="font-bold">NOTE: </span>55-minute classes count as
-            two classes in the above packages.
+            ⚠️&nbsp;NOTE: 55-minute classes count as two classes in the above
+            packages.
           </h1>
           <h1>
-            <span className="font-bold">BONUS INCENTIVE: </span>If you refer a
-            friend and they pay for a class, you will get one free 25-minute
-            class.
+            ⭐️&nbsp;BONUS INCENTIVE: If you refer a friend and they pay for a
+            class, you will get one free 25-minute class.
           </h1>
         </div>
       </div>
-      <div className="flex justify-between text-lg w-full bg-orange text-black py-2 mt-4">
+      <div className="flex justify-between text-lg w-full bg-orange text-black py-2 mt-4 lg:w-3/4 lg:mx-auto">
         <Link to="/curriculum" className="pl-2">
           &lt;&lt; Curriculum
         </Link>
@@ -95,12 +96,12 @@ const Packages = (props) => {
         return (
           <div
             key={index}
-            className="flex flex-col border-black border rounded-sm"
+            className="flex flex-col border-black border rounded-sm lg:max-w-3xl lg:mx-auto"
           >
             <h1 className="text-lg text-center font-bold py-2 bg-orange border-black border-b">
               Package {pack.package} - {pack.classes} Classes
             </h1>
-            <h2 className="bg-orange/50 px-3 py-2">
+            <h2 className="bg-orange/50 px-3 py-2 text-center">
               If you purchase {pack.classes} classes, you will receive a{" "}
               <span className="underline decoration-orange decoration-2">
                 {pack.discount}% discount
