@@ -19,7 +19,10 @@ const Contact = (props) => {
             You can reach me on WeChat or by email.
           </h2>
           <img src={wechatqr} alt="qr" />
-          <a href="mailto:russ.salonen@gmail.com" className="text-center">
+          <a
+            href="mailto:russ.salonen@gmail.com"
+            className="text-center text-xl underline underline-offset-1"
+          >
             russ.salonen@gmail.com
           </a>
         </div>

@@ -31,7 +31,6 @@ const Payment = (props) => {
           Policies &gt;&gt;
         </Link>
       </div>
-      <div className="h-4"></div>
     </div>
   );
 };
