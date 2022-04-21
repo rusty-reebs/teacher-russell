@@ -40,8 +40,11 @@ const Classes = (props) => {
         <div className="flex flex-col gap-5 pb-5">
           <h2 className="text-center text-xl lg:max-w-3xl lg:mx-auto">
             Classes will take place over Zoom, ClassIn, Skype, or whichever
-            platform works best for the student. The first class is free so we
-            can find the right platform and curriculum.
+            platform works best for the student.{" "}
+            <span className="underline decoration-orange decoration-3">
+              The first class is free
+            </span>{" "}
+            so we can find the right platform and curriculum.
           </h2>
           <div className="flex flex-col gap-5 lg:flex-row">
             <ClassCard classTime="25" dollars="20" yuan="128" />

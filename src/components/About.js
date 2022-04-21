@@ -44,7 +44,15 @@ const About = (props) => {
             learn about my students and listen to them tell me about their
             families and their interests. I also like to ask questions that
             encourage students to speak in more detail. I am a patient and
-            friendly teacher.
+            friendly teacher.{" "}
+            <Link
+              to="/contact"
+              className="underline decoration-blue-400 decoration-2"
+            >
+              Contact me
+            </Link>{" "}
+            today to book a <span className="font-bold">free</span> trial
+            class!&nbsp;😃
           </p>
           <img
             src={family}

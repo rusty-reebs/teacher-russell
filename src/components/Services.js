@@ -19,7 +19,7 @@ const Services = (props) => {
           </h2>
           <div className="mx-3">
             <ul className="list-disc list-outside space-y-3">
-              <li>One-on-one video classes.</li>
+              <li>One-on-one English immersion video classes.</li>
               <li>
                 Premium digital curriculum which can be viewed on a computer or
                 iPad
@@ -33,6 +33,10 @@ const Services = (props) => {
                 engines during class to help with content comprehension.
               </li>
               <li>Regular assessments during class (on request).</li>
+              <li>
+                Additional textbooks, workbooks, eBooks, test preparation
+                materials, etc. (on request).
+              </li>
               <li>Manual scheduling in WeChat.</li>
               <li>No extra charge for booking a class on short notice.</li>
               <li>Reminders in WeChat before each class.</li>
