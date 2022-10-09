@@ -47,8 +47,8 @@ const Classes = (props) => {
             so we can find the right platform and curriculum.
           </h2>
           <div className="flex flex-col gap-5 lg:flex-row">
-            <ClassCard classTime="25" dollars="23" yuan="153" />
-            <ClassCard classTime="55" dollars="46" yuan="306" />
+            <ClassCard classTime="25" dollars="23" yuan="163" />
+            <ClassCard classTime="55" dollars="46" yuan="327" />
           </div>
         </div>
         <h2 className="text-center text-2xl pb-2">Packages</h2>
