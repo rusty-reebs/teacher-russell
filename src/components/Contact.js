@@ -6,6 +6,10 @@ import "../index.css";
 import clipart from "../assets/clipart.png";
 import wechatqr from "../assets/wechatqr.png";
 
+const name = process.env.REACT_APP_NAME;
+const address = process.env.REACT_APP_ADDRESS;
+const phone = process.env.REACT_APP_PHONE;
+
 const Contact = (props) => {
   return (
     <div>
@@ -28,6 +32,9 @@ const Contact = (props) => {
               russ.salonen@gmail.com
             </a>
           </p>
+          <p className="text-center">{name}</p>
+          <p className="text-center">{address}</p>
+          <p className="text-center">{phone}</p>
         </div>
       </div>
       <div className="flex justify-start text-lg w-full bg-orange text-black py-2 mt-4 lg:w-3/4 lg:mx-auto">
