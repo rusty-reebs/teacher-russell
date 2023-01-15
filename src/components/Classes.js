@@ -46,9 +46,9 @@ const Classes = (props) => {
             </span>{" "}
             so we can find the right platform and curriculum.
           </h2>
-          <div className="flex flex-col gap-5 lg:flex-row">
-            <ClassCard classTime="25" dollars="23" yuan="163" />
-            <ClassCard classTime="55" dollars="46" yuan="327" />
+          <div className="flex flex-col gap-5 lg:flex-row lg:justify-center lg:gap-x-10">
+            <ClassCard classTime="25" dollars="23" yuan="160" />
+            <ClassCard classTime="55" dollars="46" yuan="320" />
           </div>
         </div>
         <h2 className="text-center text-2xl pb-2">Packages</h2>
@@ -82,7 +82,7 @@ const Classes = (props) => {
 
 const ClassCard = ({ classTime, dollars, yuan }) => {
   return (
-    <div className="mx-auto border-2 pb-3 w-80 rounded-full flex flex-col text-center font-bold shadow-lg">
+    <div className="border-2 pb-3 w-80 rounded-full flex flex-col text-center font-bold shadow-lg">
       <img src={student} className="block h-28 mx-auto" alt="clipart" />
       <h2>{classTime}-Minute Class</h2>
       <h1>${dollars} USD</h1>
